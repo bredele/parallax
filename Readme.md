@@ -21,6 +21,7 @@
 
 ## Todo
 
+  - USe regular expression or > (scroll event is not trigerred for every pixel)
   - Use Request animation frame
   - Handle horizontal scroll
   - Handler scroll elements (not just window)
