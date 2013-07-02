@@ -22,6 +22,8 @@
 ## Todo
 
   - Use Request animation frame
+  - Handle horizontal scroll
+  - Handler scroll elements (not just window)
 
 
 ## License

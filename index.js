@@ -38,7 +38,7 @@ function Parallax() {
  */
 
 Parallax.prototype.at = function(index, callback, scope) {
-  emitter.on(index, bind(callback, scope));
+  emitter.on(index, bind(scope, callback));
 };
 
 
@@ -50,5 +50,5 @@ Parallax.prototype.at = function(index, callback, scope) {
  */
 
 Parallax.prototype.on = function(callback, scope) {
-  emitter.on('scroll', bind(callback, scope));
+  emitter.on('scroll', bind(scope, callback));
 };
