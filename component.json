@@ -1,0 +1,18 @@
+{
+  "name": "parallax",
+  "repo": "bredele/parallax",
+  "description": "Simple parallax handler",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/raf": "*",
+    "component/emitter": "*",
+    "component/bind": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
