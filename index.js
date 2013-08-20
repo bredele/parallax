@@ -1,5 +1,4 @@
-var raf = require('raf')
-  , bind = require('bind')
+var bind = require('bind')
   , Emitter = require('emitter')
   , emitter = new Emitter();
 
