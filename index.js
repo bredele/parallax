@@ -11,23 +11,6 @@ window.onscroll = function(){
 };
 
 
-
-/**
- * Expose 'Parallax'
- */
-
-module.exports = Parallax;
-
-
-/**
- * Initialize Window Vertical Parallax
- *
- */
-
-function Parallax() {
-  
-}
-
 /**
  * Trigger action on specific scroll events
  *
@@ -36,7 +19,7 @@ function Parallax() {
  * @param {Object} scope optional callback' scope
  */
 
-Parallax.prototype.at = function(index, callback, scope) {
+module.exports.at = function(index, callback, scope) {
   emitter.on(index, bind(scope, callback));
 };
 
@@ -48,6 +31,6 @@ Parallax.prototype.at = function(index, callback, scope) {
  * @param {Object} scope optional callback' scope
  */
 
-Parallax.prototype.on = function(callback, scope) {
+module.exports.on = function(callback, scope) {
   emitter.on('scroll', bind(scope, callback));
 };
