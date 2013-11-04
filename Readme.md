@@ -1,13 +1,13 @@
 
-# parallax
+# scroll
 
-  Simple parallax handler
+  Simple scroll handler
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+  Install with [component](http://component.io):
 
-    $ component install bredele/parallax
+    $ component install bredele/scroll
 
 ## API
 

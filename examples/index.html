@@ -17,14 +17,13 @@
 	</div>
 	<script src="../build/build.js"></script>
 	<script>
-	  var Parallax = require('parallax')
-	  	, parallax = new Parallax();
+	  var scroll = require('scroll');
 
-	  parallax.at(200, function(){
+	  scroll.at(200, function(){
 	  	alert('200!!!');
 	  });
 
-	 parallax.on(function(y){
+	 scroll.on(function(y){
 	 	console.log(y);
 	 });
 	</script>

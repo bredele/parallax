@@ -1,7 +1,7 @@
 {
-  "name": "parallax",
-  "repo": "bredele/parallax",
-  "description": "Simple parallax handler",
+  "name": "scroll",
+  "repo": "bredele/scroll",
+  "description": "Simple scroll handler",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
