@@ -31,6 +31,7 @@ module.exports.at = function(index, callback, scope) {
  * @param {Object} scope optional callback' scope
  */
 
+module.exports =
 module.exports.on = function(callback, scope) {
   emitter.on('scroll', bind(scope, callback));
 };
